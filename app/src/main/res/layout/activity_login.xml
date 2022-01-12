@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfoodmain"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/foodlogo3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For Restaurant"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/bonheurroyale_font"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Số điện thoại"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelTextColor="@color/black"
+            app:met_floatingLabelTextSize="14sp"
+            app:met_primaryColor="@color/black"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="#66000000" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            app:met_textColorHint="#66000000"
+            android:inputType="textPassword"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/black"
+            app:met_singleLineEllipsis="true"
+            app:met_floatingLabelTextColor="@color/black"
+            app:met_floatingLabelTextSize="14sp"/>
+        <CheckBox
+            android:id="@+id/cbRemember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghi nhớ"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20sp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btnLogin2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:text="Đăng nhập"
+            android:textColor="@color/white"
+            android:background="@drawable/button_style_1"/>
+        <TextView
+            android:id="@+id/txtForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lấy lại mật khẩu?"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

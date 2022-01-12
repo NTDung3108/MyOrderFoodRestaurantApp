@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/nav_order"
+            android:title="@string/nav_order"
+            android:icon="@drawable/ic_assignment_24"/>
+        <item
+            android:id="@+id/nav_foods"
+            android:title="@string/nav_foods"
+            android:icon="@drawable/fast_food"/>
+        <item
+            android:id="@+id/nav_report"
+            android:title="@string/nav_report"
+            android:icon="@drawable/profit_report"/>
+    </group>
+    <item android:title="Tài Khoản" >
+        <menu >
+            <item
+                android:id="@+id/nav_account"
+                android:title="@string/nav_account"
+                android:icon="@drawable/ic_info_24" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_24"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfoodmain"
+    tools:context=".RegisterRestaurantInfoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+        <RelativeLayout
+            android:id="@+id/layoutAvatar"
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageAvatar"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/add_photo_icon_29"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhấn vào để thêm ảnh"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Nhà Hàng Hoặc Quán Ăn: "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_style_1"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ: "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_style_1"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginBottom="30dp"/>
+        <Button
+            android:id="@+id/btnComplete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Hoàn tất"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style_1"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>

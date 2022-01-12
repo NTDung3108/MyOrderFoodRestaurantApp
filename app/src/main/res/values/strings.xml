@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="nav_order">Đơn hàng</string>
+    <string name="nav_foods">Danh sách món ăn</string>
+    <string name="nav_report">Thống kê</string>
+    <string name="nav_account">Tài khoản</string>
+    <string name="nav_logout">Đăng xuất</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_text"> <u>Chi Tiết đơn Hàng</u></string>
+    <string name="report_detail"> <u>Chi tiết</u></string>
+    <string name="report"> <u>Báo Cáo</u></string>
+    <string name="user_phone"> <u>Liên hệ với người đặt</u></string>
+    <string name="channel_name">Order Notification</string>
+    <string name="channel_description">Notification</string>
+
+    <string name="total_order">Số đơn hàng</string>
+    <string name="total_price">Tổng số tiền</string>
+</resources>
